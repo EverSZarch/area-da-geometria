@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(39, 39, 50);
+    margin-left: 10%;
+    color: rgb(175, 175, 177);
+}
+
+img{
+    width: 150px;
+}
+
+header{
+    justify-content: center;
+    text-align: justify;
+    font-weight: bold;
+}
+
+main{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#selecao{
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 10px;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-right: 10%;
+}
+
+button{
+    background-color: rgb(19, 19, 34);
+    color: rgb(175, 175, 177);
+    border: 3px solid rgb(70, 70, 116);
+    border-radius: 0px 15px 15px 15px;
+    box-shadow: 2px 3px 8px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+button:hover{
+    background-color: rgb(70, 70, 116);
+    box-shadow: -3px 4px 3px ;
+    font-size: 1.05em;
+ 
+}
+
+#b_a{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    padding: 15px 0px;
+}
+#circulo{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;  
+    padding: 15px 0px;  
+}
+
+input{
+    border: 2px solid rgb(175, 175, 177);
+    border-radius: 5px  ;
+    text-indent: 5%;
+    padding-top: 10px;
+    margin-bottom: 5px;
+    background-color: rgb(19, 19, 34);
+    color: rgb(175, 175, 177);
+}
+
+#res{
+    padding-top: 10px;
+    font-size: 1.1em ;
+}
+
+footer{
+    text-align: center;
+    padding-top: 15%;
+}

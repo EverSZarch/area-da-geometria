@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcule sua área</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header>
+<h1>Calcule a área</h1>
+<h2>Qual será a área da forma geométrica?</h2>
+    </header>
+   
+    <main>
+        <div id="selecao">
+            <button onclick="circulo()" >Círculo</button>
+            <button onclick="triangulo()" >Triângulo</button>
+            <button onclick="quadrado()" >Quadrado</button>
+            <button onclick="retangulo()">Retângulo</button>
+            <button onclick="paralelo()" >Paralelogramo</button>
+        </div>
+    
+        <div id="b_a">
+            <input type="number" placeholder="Insira a base" id="base">
+            <input type="number" placeholder="Insira a altura" id="altura">
+        </div>
+
+        <div id="circulo">
+            <input type="number" placeholder="Insira a diâmetro" id="diametro">
+            <input type="number" placeholder="Insira o raio" id="raio">
+        </div>
+
+        <div id="icones">
+
+        </div>
+        
+        <div id="res">
+            A área é de...
+            <button id="calculo" onclick="calcular()">Calcular</button>
+            <button id="cal_c" onclick="cal_cir()">Calcular</button>
+            <button id="cal_t" onclick="cal_tri()">Calcular</button>
+        </div>
+
+    </main>
+
+<footer>
+    Criado por Everton Fernando
+</footer>
+
+<script src="script/main.js"></script>
+</body>
+</html>
